@@ -25,7 +25,10 @@ def fibonacci(input_value:int) -> int :
 # re-write the code to be
 # if value of input = 0 then return 0 ; if = 1 then return 1 ; else 
 
-print(fibonacci(6000))
+if __name__ == '__main__':
+    Fibonacci_value = int(input())
+    print(fibonacci(Fibonacci_value))
+#print(fibonacci(6000))
 
 
 # not_list = [1,2,3,4]
